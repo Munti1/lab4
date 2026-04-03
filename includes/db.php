@@ -1,6 +1,5 @@
 <?php
-// includes/db.php — Database Connection
-// Team 5 | Barbershop Booking Platform
+// includes/db.php — Muntean Alexandru-Ioan
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');

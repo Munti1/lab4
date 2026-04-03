@@ -1,5 +1,5 @@
 <?php
-// pages/login.php — Student 1
+// pages/login.php — Muntean Alexandru-Ioan
 define('BASE_URL', '/lab4/');
 $pageTitle = 'Login — BarberCo';
 require_once __DIR__ . '/../includes/db.php';

@@ -1,5 +1,75 @@
 <?php
-// index.php — Home Page | Student 1
+/*================================================================
+TEAM 5 — BarberCo Studio | Barbershop Booking Platform
+Lab Group Activity | Academic Year 2025–26
+================================================================
+
+TEAM MEMBERS & ROLES
+----------------------------------------------------------------
+
+Student 1 — Muntean Alexandru-Ioan
+Role: Home Page, General Layout & Authentication
+Files:
+  - index.php                  (Home page with hero, categories, featured services, staff)
+  - includes/header.php        (Navigation bar, HTML head, session-aware menu)
+  - includes/footer.php        (Footer with contact info and links)
+  - includes/auth.php          (Session helpers: isLoggedIn, requireLogin, logout)
+  - includes/db.php            (MySQL database connection)
+  - pages/register.php         (User registration form with validation)
+  - pages/login.php            (User login form with session handling)
+  - pages/logout.php           (Session destroy and redirect)
+
+----------------------------------------------------------------
+
+Student 2 — Tetoianu Kevin Stefan
+Role: Services Page, Categories & Service Details
+Files:
+  - pages/services.php         (All services listing with category filter bar)
+  - pages/service_detail.php   (Single service detail page with related services)
+
+----------------------------------------------------------------
+
+Student 3 — Andrei Alexandru-Farcas
+Role: Appointment Booking System
+Files:
+  - pages/book.php             (Booking form: service, stylist, date, time, notes)
+  - sql/barbershop.sql         (Full database schema and seed data)
+
+----------------------------------------------------------------
+
+Student 4 — Craciun Andrei
+Role: My Appointments Page, Confirmation Page & Final Testing
+Files:
+  - pages/my_appointments.php  (View and cancel user appointments)
+  - pages/confirmation.php     (Booking confirmation with full appointment summary)
+
+----------------------------------------------------------------
+
+PLATFORM OVERVIEW
+----------------------------------------------------------------
+Platform:     Barbershop / Beauty Salon Booking System
+Tech Stack:   PHP, MySQL, HTML, CSS (no frameworks)
+Server:       XAMPP (Apache + MySQL)
+Database:     barbershop_db
+
+Pages included:
+  - Home page with salon presentation and service overview
+  - Register, Login, and Logout
+  - Services page with category filtering
+  - Single service details page
+  - Appointment booking form with stylist selection
+  - Booking confirmation page
+  - My Appointments page with cancel functionality
+
+Database tables:
+  - users         (registered accounts)
+  - staff         (barber/stylist profiles)
+  - categories    (service categories)
+  - services      (individual services with price and duration)
+  - appointments  (bookings linking users, services and staff)
+
+================================================================*/
+// index.php — Home Page | Muntean Alexandru-Ioan
 define('BASE_URL', '/lab4/');
 $pageTitle = 'BarberCo Studio — Premium Barbershop & Beauty Salon';
 require_once __DIR__ . '/includes/db.php';

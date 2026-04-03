@@ -1,5 +1,5 @@
 <?php
-// pages/logout.php — Student 1
+// pages/logout.php — Muntean Alexandru-Ioan
 define('BASE_URL', '/lab4/');
 require_once __DIR__ . '/../includes/auth.php';
 logout();

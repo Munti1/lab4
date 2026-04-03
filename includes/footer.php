@@ -1,4 +1,4 @@
-<!-- includes/footer.php -->
+<!-- includes/footer.php — Muntean Alexandru-Ioan -->
 <footer class="site-footer">
     <div class="footer-inner">
         <div class="footer-brand">

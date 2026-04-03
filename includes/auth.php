@@ -1,5 +1,5 @@
 <?php
-// includes/auth.php — Session helpers
+// includes/auth.php — Muntean Alexandru-Ioan
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }

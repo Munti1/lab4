@@ -1,5 +1,5 @@
 <?php
-// pages/register.php — Student 1
+// pages/register.php — Muntean Alexandru-Ioan
 define('BASE_URL', '/lab4/');
 $pageTitle = 'Register — BarberCo';
 require_once __DIR__ . '/../includes/db.php';

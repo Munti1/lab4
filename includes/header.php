@@ -1,5 +1,5 @@
 <?php
-// includes/header.php
+// includes/header.php — Muntean Alexandru-Ioan
 if (session_status() === PHP_SESSION_NONE) session_start();
 if (!defined('BASE_URL')) define('BASE_URL', '/lab4/');
 ?>
