@@ -1,5 +1,5 @@
 <?php
-// pages/confirmation.php — Student 4
+// pages/confirmation.php — Craiun Ioan-Andrei
 define('BASE_URL', '/lab4/');
 $pageTitle = 'Booking Confirmed — BarberCo';
 require_once __DIR__ . '/../includes/db.php';

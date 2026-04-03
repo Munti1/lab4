@@ -1,5 +1,5 @@
 <?php
-// pages/my_appointments.php — Student 4
+// pages/my_appointments.php — Craciun Ioan-Andrei
 define('BASE_URL', '/lab4/');
 $pageTitle = 'My Appointments — BarberCo';
 require_once '../includes/db.php';
