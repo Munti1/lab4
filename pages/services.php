@@ -1,5 +1,5 @@
 <?php
-// pages/services.php — Student 2
+// Services Page - Tetoianu Kevin
 define('BASE_URL', '/lab4/');
 $pageTitle = 'Services — BarberCo';
 require_once __DIR__ . '/../includes/db.php';

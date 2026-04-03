@@ -1,5 +1,5 @@
 <?php
-// pages/service_detail.php — Student 2
+// Services Page - Tetoianu Kevin
 define('BASE_URL', '/lab4/');
 require_once __DIR__ . '/../includes/db.php';
 require_once __DIR__ . '/../includes/auth.php';
