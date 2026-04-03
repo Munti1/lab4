@@ -1,0 +1,18 @@
+<?php
+// includes/db.php — Database Connection
+// Team 5 | Barbershop Booking Platform
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'barbershop_db');
+
+$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+
+if ($conn->connect_error) {
+    die('<div style="font-family:sans-serif;padding:2rem;color:#c0392b;">
+        <strong>Database connection failed:</strong> ' . htmlspecialchars($conn->connect_error) . '
+    </div>');
+}
+
+$conn->set_charset('utf8mb4');
