@@ -1,5 +1,5 @@
 <?php
-// pages/book.php — Student 3
+// pages/book.php — Farcas Andrei-Alexandru
 define('BASE_URL', '/lab4/');
 $pageTitle = 'Book Appointment — BarberCo';
 require_once __DIR__ . '/../includes/db.php';

@@ -3,6 +3,7 @@
 -- Team 5 | Lab Group Activity
 -- ============================================================
 
+-- Database creation - Farcas Andrei-Alexandru
 CREATE DATABASE IF NOT EXISTS barbershop_db;
 USE barbershop_db;
 
